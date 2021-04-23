@@ -15,12 +15,12 @@ D:/Projects/VRSimulation1.1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56044
+56926
 Successfully changed project path to: D:/Projects/VRSimulation1.1
 D:/Projects/VRSimulation1.1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 831.39 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 1.20 ms.
+Refreshing native plugins compatible for Editor in 674.47 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 1.03 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path D:/Projects/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Projects/VRSimulation1.1/Assets
@@ -36,26 +36,26 @@ Initialize mono
 Mono path[0] = 'D:/Projects/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Projects/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Projects/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Projects/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001230 seconds.
+Registered in 0.001080 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.63 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 53.95 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.298 seconds
+- Completed reload, in  2.036 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.437728 seconds.
+Registered in 0.265119 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 87.68 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 78.13 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
@@ -70,51 +70,265 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.382 seconds
+- Completed reload, in  1.265 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.74 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 3108 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 143.0 MB.
-System memory in use after: 143.0 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.1 MB.
+System memory in use after: 143.1 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3546.
-Total: 2.918700 ms (FindLiveObjects: 0.282800 ms CreateObjectMapping: 0.146800 ms MarkObjects: 2.386500 ms  DeleteObjects: 0.101800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/Drill yellow.prefab
-  artifactKey: Guid(1d886123f7cbf0b4eab7a42313387bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Drill yellow.prefab using Guid(1d886123f7cbf0b4eab7a42313387bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3cc26b91c71240058d3830888009917') in 0.092167 seconds
-  Import took 0.097242 seconds .
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3547.
+Total: 2.426600 ms (FindLiveObjects: 0.273800 ms CreateObjectMapping: 0.131400 ms MarkObjects: 1.956600 ms  DeleteObjects: 0.063500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 325.212532 seconds.
-  path: Assets/Drill.fbx
-  artifactKey: Guid(004a97f809c2c7c40b973eabe880a410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Drill.fbx using Guid(004a97f809c2c7c40b973eabe880a410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd7813a9f36c24e544b03e49e304ff2') in 0.344950 seconds
-  Import took 0.350766 seconds .
+  path: Assets/_Course Library/Audio/FX/DrillSound.mp3
+  artifactKey: Guid(5b6da61520b421946a45061328b71adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Audio/FX/DrillSound.mp3 using Guid(5b6da61520b421946a45061328b71adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73e7f6999140c2b1fd7259080da3eec') in 0.109654 seconds
+  Import took 0.140412 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 5.25 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.2 MB.
+System memory in use after: 77.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3555.
+Total: 4.076300 ms (FindLiveObjects: 0.422600 ms CreateObjectMapping: 0.176100 ms MarkObjects: 3.456300 ms  DeleteObjects: 0.020200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 37.630110 seconds.
-  path: Assets/socket.fbx
-  artifactKey: Guid(6e458bba7cff23643abc36565aa7244c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/socket.fbx using Guid(6e458bba7cff23643abc36565aa7244c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05486f76e6a358e70ecc488a7a61f3af') in 0.044146 seconds
-  Import took 0.049791 seconds .
+  Time since last request: 227.639573 seconds.
+  path: Assets/_Course Library/Audio/FX/DrillSound.mp3
+  artifactKey: Guid(5b6da61520b421946a45061328b71adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Audio/FX/DrillSound.mp3 using Guid(5b6da61520b421946a45061328b71adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023c10acb38a1e9da29dfc259893a4c3') in 0.020324 seconds
+  Import took 0.037648 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004935 seconds.
+Registered in 0.004651 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.909 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2970 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.5 MB.
+System memory in use after: 135.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3559.
+Total: 2.550200 ms (FindLiveObjects: 0.304300 ms CreateObjectMapping: 0.136800 ms MarkObjects: 2.089700 ms  DeleteObjects: 0.018000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 217.169097 seconds.
+  path: Assets/_Course Library/Audio/FX/DrillSound.wav
+  artifactKey: Guid(c7e2b3040fcc63849ab51fdd6df7556d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Audio/FX/DrillSound.wav using Guid(c7e2b3040fcc63849ab51fdd6df7556d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1256490740e43862dbbe4fb2cb28159') in 0.049593 seconds
+  Import took 0.069158 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006879 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.108 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2970 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.6 MB.
+System memory in use after: 135.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3564.
+Total: 2.873600 ms (FindLiveObjects: 0.330400 ms CreateObjectMapping: 0.184700 ms MarkObjects: 2.330200 ms  DeleteObjects: 0.026700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005475 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.012 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2970 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.6 MB.
+System memory in use after: 135.9 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3568.
+Total: 2.690800 ms (FindLiveObjects: 0.292000 ms CreateObjectMapping: 0.167900 ms MarkObjects: 2.211500 ms  DeleteObjects: 0.018500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 346.051070 seconds.
+  path: Assets/Materials/Drill_FrontMetal.mat
+  artifactKey: Guid(56af3cc5cd134ad4484afe9fb749e911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Drill_FrontMetal.mat using Guid(56af3cc5cd134ad4484afe9fb749e911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f6aecefbd7428c78128f58f820b5a6') in 0.225326 seconds
+  Import took 0.239309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MedColorIntensity_MinLightness.mat
+  artifactKey: Guid(5cd89167416b68048802338ad9219ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MedColorIntensity_MinLightness.mat using Guid(5cd89167416b68048802338ad9219ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d809ea8d5e9dd054eea73496e492a6') in 0.132256 seconds
+  Import took 0.162799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MinColorIntensity_MedLightness.mat
+  artifactKey: Guid(db9e9e97d836e4c4ba6e23a8bb59df7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MinColorIntensity_MedLightness.mat using Guid(db9e9e97d836e4c4ba6e23a8bb59df7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f81add072ebd2a4fe8c7efe12bbb4a') in 0.115700 seconds
+  Import took 0.143084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MinColorIntensity_MaxLightness.mat
+  artifactKey: Guid(0f3f7bfbfc24fd245971f1b42199cff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MinColorIntensity_MaxLightness.mat using Guid(0f3f7bfbfc24fd245971f1b42199cff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac834b652cef1d7746f7c27b08c75ba1') in 0.070446 seconds
+  Import took 0.082985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MaxColorIntensity_MaxLightness.mat
+  artifactKey: Guid(f088e83810086dd47ab9a9718144ed37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MaxColorIntensity_MaxLightness.mat using Guid(f088e83810086dd47ab9a9718144ed37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf95f38e89e626c3a674f0a6e04cd76e') in 0.070528 seconds
+  Import took 0.101208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Materials/Drill_MainColor.mat
+  artifactKey: Guid(fcebcda7a084ed048af2d0555bdaf7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Drill_MainColor.mat using Guid(fcebcda7a084ed048af2d0555bdaf7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8002a3d27def5b790deb41341304f1aa') in 0.018889 seconds
+  Import took 0.043741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Materials/Drill_FrontMetal.mat
+  artifactKey: Guid(56af3cc5cd134ad4484afe9fb749e911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Drill_FrontMetal.mat using Guid(56af3cc5cd134ad4484afe9fb749e911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f6aecefbd7428c78128f58f820b5a6') in 0.011903 seconds
+  Import took 0.016657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MaxColorIntensity_MedLightness.mat
+  artifactKey: Guid(ca6a2771d00019e4eba3d3b1386215a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MaxColorIntensity_MedLightness.mat using Guid(ca6a2771d00019e4eba3d3b1386215a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78853729c73b59ca09eaff6429dec34c') in 0.076263 seconds
+  Import took 0.091263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MaxColorIntensity_MinLightness.mat
+  artifactKey: Guid(f9ab68b7517ed34488cdbbbf976b7ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MaxColorIntensity_MinLightness.mat using Guid(f9ab68b7517ed34488cdbbbf976b7ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4634a2c61ccb025c1026c7c91793443e') in 0.089688 seconds
+  Import took 0.114444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MedColorIntensity_MedLightness.mat
+  artifactKey: Guid(ca309c5926d65b34ab5267404b8debd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MedColorIntensity_MedLightness.mat using Guid(ca309c5926d65b34ab5267404b8debd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f047e8dc4ae0a9a1344da5bb73710053') in 0.105611 seconds
+  Import took 0.119547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183842281f0f6cf9cf64483890acea4c') in 0.041653 seconds
+  Import took 0.065919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Materials/Drill_SecondaryColor.mat
+  artifactKey: Guid(c214e0c87b2ef3641b2d3302fd877b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Drill_SecondaryColor.mat using Guid(c214e0c87b2ef3641b2d3302fd877b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c5bffef92ee159c304b7f1d3c2de24') in 0.016579 seconds
+  Import took 0.021323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MedColorIntensity_MaxLightness.mat
+  artifactKey: Guid(1705db4e7c5e95047b66293086e5a7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MedColorIntensity_MaxLightness.mat using Guid(1705db4e7c5e95047b66293086e5a7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22796d4c09ab637f9af22d0b4cf8a9e5') in 0.081994 seconds
+  Import took 0.105762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MinColorIntensity_MinLightness.mat
+  artifactKey: Guid(5d027e838ac6db348980898c93402db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MinColorIntensity_MinLightness.mat using Guid(5d027e838ac6db348980898c93402db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa315b959742b5fc1d4c50b3b65db617') in 0.094259 seconds
+  Import took 0.120714 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004414 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -126,16 +340,1923 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.082 seconds
+- Completed reload, in  0.963 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2969 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 138.1 MB.
-System memory in use after: 138.4 MB.
+Unloading 2970 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.3 MB.
+System memory in use after: 138.5 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3630.
-Total: 2.630900 ms (FindLiveObjects: 0.292600 ms CreateObjectMapping: 0.120400 ms MarkObjects: 2.195600 ms  DeleteObjects: 0.021400 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3648.
+Total: 2.832300 ms (FindLiveObjects: 0.499400 ms CreateObjectMapping: 0.239700 ms MarkObjects: 2.063900 ms  DeleteObjects: 0.027700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 497.326741 seconds.
+  path: Assets/Basic Metal Texture Pack
+  artifactKey: Guid(f62220a100f77de41bf9c8f73c4b5aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack using Guid(f62220a100f77de41bf9c8f73c4b5aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c47ddf2ef882dbc3c22cf9a6a4e7c7') in 0.012800 seconds
+  Import took 0.018374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.131979 seconds.
+  path: Assets/Basic Metal Texture Pack/Materials
+  artifactKey: Guid(128535f442823444794d53627557df64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Materials using Guid(128535f442823444794d53627557df64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa624d1eeaf707ed52b8d1330402a3c') in 0.808629 seconds
+  Import took 0.813748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Basic Metal Texture Pack/Materials/metal11_diffuse.mat
+  artifactKey: Guid(cd7afeca027399246b86c597f8a0b0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Materials/metal11_diffuse.mat using Guid(cd7afeca027399246b86c597f8a0b0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ecce7c5b49bc7b7ac0090519bc8828') in 0.188792 seconds
+  Import took 0.202173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Basic Metal Texture Pack/Materials/metal03_diffuse.mat
+  artifactKey: Guid(0cfb4aa2ebd9d42469665a07b3464123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Materials/metal03_diffuse.mat using Guid(0cfb4aa2ebd9d42469665a07b3464123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b68cf34e947760d48754f80d20f3ee') in 0.017234 seconds
+  Import took 0.022825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Basic Metal Texture Pack/Materials/metal06_diffuse.mat
+  artifactKey: Guid(f88df53ed907836468e1495c46cc8ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Materials/metal06_diffuse.mat using Guid(f88df53ed907836468e1495c46cc8ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2703a3ea2d5229eeb3b49392b2c56750') in 0.013857 seconds
+  Import took 0.019314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Basic Metal Texture Pack/Materials/metal05_diffuse.mat
+  artifactKey: Guid(c2ae3be6d52eba641b1ea5ff0d971b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Materials/metal05_diffuse.mat using Guid(c2ae3be6d52eba641b1ea5ff0d971b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bed8e9df0ff495926c3683ffdabe245') in 0.016491 seconds
+  Import took 0.032939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Basic Metal Texture Pack/Materials/metal08_diffuse.mat
+  artifactKey: Guid(ec5e0ca593dcf3e439ef863d905cabd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Materials/metal08_diffuse.mat using Guid(ec5e0ca593dcf3e439ef863d905cabd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9a9b519761003fc8bf1147ca2d3b46') in 0.014370 seconds
+  Import took 0.026323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Basic Metal Texture Pack/Materials/metal02_diffuse.mat
+  artifactKey: Guid(8cd37ddc662b72845bf8e7988bdac2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Materials/metal02_diffuse.mat using Guid(8cd37ddc662b72845bf8e7988bdac2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b2ad63546ff246d9eaff8d9bfc1c81') in 0.014944 seconds
+  Import took 0.020786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Basic Metal Texture Pack/Materials/metal07_diffuse.mat
+  artifactKey: Guid(a6fbbed54ea4a3242aeb94be968ded4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Materials/metal07_diffuse.mat using Guid(a6fbbed54ea4a3242aeb94be968ded4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0cf852d20856eee0be4acb4f07e9fb') in 0.013525 seconds
+  Import took 0.018679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Basic Metal Texture Pack/Materials/metal09_diffuse.mat
+  artifactKey: Guid(680066b61878aa4488e94f21f6673c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Materials/metal09_diffuse.mat using Guid(680066b61878aa4488e94f21f6673c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb2f01167943ba2dfa9cc7b07d6b426') in 0.016362 seconds
+  Import took 0.030564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Basic Metal Texture Pack/Materials/metal01_diffuse.mat
+  artifactKey: Guid(2a8234130e7aeb8488b60a145af9e858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Materials/metal01_diffuse.mat using Guid(2a8234130e7aeb8488b60a145af9e858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f2b41d92700835410f382f8a575ff9') in 0.012979 seconds
+  Import took 0.017767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Basic Metal Texture Pack/Materials/metal10_diffuse.mat
+  artifactKey: Guid(278605e126bfe364ab79edc92bfe116e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Materials/metal10_diffuse.mat using Guid(278605e126bfe364ab79edc92bfe116e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e641557d7171b43db4d8b41dce2c48') in 0.013995 seconds
+  Import took 0.018806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Basic Metal Texture Pack/Materials/metal04_diffuse.mat
+  artifactKey: Guid(e1a684120a2816647978b54f5d856776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Materials/metal04_diffuse.mat using Guid(e1a684120a2816647978b54f5d856776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843c78ee8fd0890920b7f35d9550a1a4') in 0.014907 seconds
+  Import took 0.029273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.924751 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures
+  artifactKey: Guid(d1f205b4a9e70024aae2600555d5fa6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures using Guid(d1f205b4a9e70024aae2600555d5fa6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb993ac66e8aa95cc6166f30a9f70ad') in 0.007070 seconds
+  Import took 0.029495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037502 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal01_diffuse.png
+  artifactKey: Guid(64b63120021ae80429a026750d64b29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal01_diffuse.png using Guid(64b63120021ae80429a026750d64b29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24ad06f7d2e625f3b836d6945c6a782') in 0.014690 seconds
+  Import took 0.019226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal08_diffuse.png
+  artifactKey: Guid(38ea8684af63a4d4d97885ec364d720c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal08_diffuse.png using Guid(38ea8684af63a4d4d97885ec364d720c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04bbabffdc38d0e7ffe5528ea4664472') in 0.008630 seconds
+  Import took 0.023349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal10_normal.png
+  artifactKey: Guid(bd90f1ba4a50f0a4682d00cde5aca31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal10_normal.png using Guid(bd90f1ba4a50f0a4682d00cde5aca31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c511b0abe9740644cf9ac3167cd060') in 0.015136 seconds
+  Import took 0.032621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal05_specular.png
+  artifactKey: Guid(778e5864c4a44cb4cbb36840d6193d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal05_specular.png using Guid(778e5864c4a44cb4cbb36840d6193d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b4130653b1a44cb96b8f4f9711c245') in 0.010558 seconds
+  Import took 0.014856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal07_diffuse.png
+  artifactKey: Guid(99a0c197b377fc74fa50cfffc6cdce14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal07_diffuse.png using Guid(99a0c197b377fc74fa50cfffc6cdce14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535ab38db1a8328f5862c70964e688dc') in 0.009642 seconds
+  Import took 0.015024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal01_normal.png
+  artifactKey: Guid(e5bed97ab1299c14d9ac5fc229217a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal01_normal.png using Guid(e5bed97ab1299c14d9ac5fc229217a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a28fdca9bad297084dde85421a2748') in 0.010926 seconds
+  Import took 0.015317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal06_specular.png
+  artifactKey: Guid(55d7dbd79e72720448de1ba24687be7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal06_specular.png using Guid(55d7dbd79e72720448de1ba24687be7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b90ae39ed90033cb571023ef80a8f7f') in 0.009511 seconds
+  Import took 0.044138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal07_normal.png
+  artifactKey: Guid(6ee67a6cb2e6982429017841e95b1774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal07_normal.png using Guid(6ee67a6cb2e6982429017841e95b1774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3ed10d5694a8fc0c7420278530c925') in 0.010597 seconds
+  Import took 0.049375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal03_specular.png
+  artifactKey: Guid(8ab1464e0e5a3034092d8d0865d016f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal03_specular.png using Guid(8ab1464e0e5a3034092d8d0865d016f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a09db9403c89ccbd6f5056dd490daef') in 0.010541 seconds
+  Import took 0.089995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal10_diffuse.png
+  artifactKey: Guid(dd0cf2c7226c8674e9391e645d086af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal10_diffuse.png using Guid(dd0cf2c7226c8674e9391e645d086af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa7bbbb79db9342e74baae08a54c083') in 0.009989 seconds
+  Import took 0.042116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal11_specular.png
+  artifactKey: Guid(f195bb6245caa294fb5cc08c3fd3b604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal11_specular.png using Guid(f195bb6245caa294fb5cc08c3fd3b604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2e0dafb653cb1432e81bf70e70f614') in 0.010828 seconds
+  Import took 0.016535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal06_diffuse.png
+  artifactKey: Guid(96df3667f79f94a4193a635dcf065f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal06_diffuse.png using Guid(96df3667f79f94a4193a635dcf065f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1ad2b1b04093e75d91b934cb5968f7') in 0.010893 seconds
+  Import took 0.022367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal05_normal.png
+  artifactKey: Guid(45366d6f0d54c1145b389b4713ae838d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal05_normal.png using Guid(45366d6f0d54c1145b389b4713ae838d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3878566152635cf49412a68136064b3c') in 0.011033 seconds
+  Import took 0.015767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal10_specular.png
+  artifactKey: Guid(74bf53c97161c56438d43ba095d31ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal10_specular.png using Guid(74bf53c97161c56438d43ba095d31ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781d3d8e8c6eabcbfcabfd46da122641') in 0.010242 seconds
+  Import took 0.019234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal04_diffuse.png
+  artifactKey: Guid(d0455999741dd0745b506f2f59deb318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal04_diffuse.png using Guid(d0455999741dd0745b506f2f59deb318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378a55d34be6af186d1777e7fe9895f3') in 0.009774 seconds
+  Import took 0.014531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal06_normal.png
+  artifactKey: Guid(06114adacb8dd2b47a9667b03bc5c9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal06_normal.png using Guid(06114adacb8dd2b47a9667b03bc5c9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1d02170f2f2ce30ad8cee1d26d2073') in 0.011570 seconds
+  Import took 0.016174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal02_normal.png
+  artifactKey: Guid(119afd6a9f8eaf343966519912f9ce91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal02_normal.png using Guid(119afd6a9f8eaf343966519912f9ce91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49dfdb07fce73735384f323bd4b199c') in 0.011770 seconds
+  Import took 0.016809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal11_normal.png
+  artifactKey: Guid(c6f0b683d898a3542bb527986ca76968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal11_normal.png using Guid(c6f0b683d898a3542bb527986ca76968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b434aaf11105caf8d054a288abe5d0') in 0.011435 seconds
+  Import took 0.028847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal08_specular.png
+  artifactKey: Guid(a949bc7ae4f1a83479213ebfad457316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal08_specular.png using Guid(a949bc7ae4f1a83479213ebfad457316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56dcbff15cbbace6d2a0fac7447577c4') in 0.010582 seconds
+  Import took 0.015222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal09_diffuse.png
+  artifactKey: Guid(9e1053dc53fdbbb4288d8e229253cfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal09_diffuse.png using Guid(9e1053dc53fdbbb4288d8e229253cfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c509a4f598ea54a371bfc85c8c0d32e') in 0.010784 seconds
+  Import took 0.015776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal02_specular.png
+  artifactKey: Guid(d32532b4de4bb13439761c97f50a5e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal02_specular.png using Guid(d32532b4de4bb13439761c97f50a5e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907fcb7b3b9383e6ffc587b00db41e43') in 0.011226 seconds
+  Import took 0.016430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal03_diffuse.png
+  artifactKey: Guid(4bd873697c85ab348af552f797d72e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal03_diffuse.png using Guid(4bd873697c85ab348af552f797d72e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b32c10699c8003047489adb9e050da') in 0.012149 seconds
+  Import took 0.018129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal11_diffuse.png
+  artifactKey: Guid(e9b588a54c9da3647ab7f312b7618374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal11_diffuse.png using Guid(e9b588a54c9da3647ab7f312b7618374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3962ecb904cbae881d67dca693822c') in 0.011072 seconds
+  Import took 0.017249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal07_specular.png
+  artifactKey: Guid(6c179168821029f4795de498a3845c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal07_specular.png using Guid(6c179168821029f4795de498a3845c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8e8e7cd2f4565a206b15ff7e77affa') in 0.011768 seconds
+  Import took 0.018358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal05_diffuse.png
+  artifactKey: Guid(f4c22d06cee522a468a8464013629b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal05_diffuse.png using Guid(f4c22d06cee522a468a8464013629b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096af59170bdb7bdb1c48f8642e376c0') in 0.011064 seconds
+  Import took 0.016437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal01_specular.png
+  artifactKey: Guid(5432584f31ee22b409d988978bcaa3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal01_specular.png using Guid(5432584f31ee22b409d988978bcaa3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4543babae90c5e9d36940eee5c6fe77e') in 0.011886 seconds
+  Import took 0.021128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal09_specular.png
+  artifactKey: Guid(0e01469306e44d447826844409e20647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal09_specular.png using Guid(0e01469306e44d447826844409e20647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625bd607db97013112a02ef218567695') in 0.011809 seconds
+  Import took 0.018004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal04_normal.png
+  artifactKey: Guid(720197411f4d9f1418d61777b8f940a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal04_normal.png using Guid(720197411f4d9f1418d61777b8f940a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b213394b1038dac4b4a2af8bccf6c5c8') in 0.012389 seconds
+  Import took 0.021036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal08_normal.png
+  artifactKey: Guid(c34528d6c318010478843b1698720e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal08_normal.png using Guid(c34528d6c318010478843b1698720e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a79861d001edee575e3905d2cf6654') in 0.011006 seconds
+  Import took 0.016271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal02_diffuse.png
+  artifactKey: Guid(09f96ec45f7a1e7418f1985cb62caaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal02_diffuse.png using Guid(09f96ec45f7a1e7418f1985cb62caaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7932a2f6c3d3762574dda83d92ed3972') in 0.009426 seconds
+  Import took 0.014930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal03_normal.png
+  artifactKey: Guid(e13f30531836e214591c472c4dbf36c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal03_normal.png using Guid(e13f30531836e214591c472c4dbf36c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1b6ecf610bec13af74d980961d9c45') in 0.013421 seconds
+  Import took 0.018916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal04_specular.png
+  artifactKey: Guid(45e661c39a4c1be4b8f6ec0fae13af21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal04_specular.png using Guid(45e661c39a4c1be4b8f6ec0fae13af21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4530fdc3b2dc177ac09a827dbaa3c7') in 0.011423 seconds
+  Import took 0.016753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal09_normal.png
+  artifactKey: Guid(a65175921c0a5b349bef0a18d28acb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal09_normal.png using Guid(a65175921c0a5b349bef0a18d28acb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90249f92fcdeee3027a2c6a3defb32f7') in 0.011493 seconds
+  Import took 0.016495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal04_specular.png
+  artifactKey: Guid(45e661c39a4c1be4b8f6ec0fae13af21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal04_specular.png using Guid(45e661c39a4c1be4b8f6ec0fae13af21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4530fdc3b2dc177ac09a827dbaa3c7') in 0.010655 seconds
+  Import took 0.016071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Basic Metal Texture Pack/Metal Textures/metal09_normal.png
+  artifactKey: Guid(a65175921c0a5b349bef0a18d28acb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/Metal Textures/metal09_normal.png using Guid(a65175921c0a5b349bef0a18d28acb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90249f92fcdeee3027a2c6a3defb32f7') in 0.012140 seconds
+  Import took 0.017851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.611170 seconds.
+  path: Assets/Basic Metal Texture Pack/readme.txt
+  artifactKey: Guid(bd7334a75464bad42af1930293c02f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/readme.txt using Guid(bd7334a75464bad42af1930293c02f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa789232f539382a8109b5864df4abc1') in 0.007779 seconds
+  Import took 0.013395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009635 seconds.
+  path: Assets/Basic Metal Texture Pack/readme.txt
+  artifactKey: Guid(bd7334a75464bad42af1930293c02f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Basic Metal Texture Pack/readme.txt using Guid(bd7334a75464bad42af1930293c02f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa789232f539382a8109b5864df4abc1') in 0.002824 seconds
+  Import took 0.008359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.108369 seconds.
+  path: Assets/metal_06
+  artifactKey: Guid(e2e53e015698e6d4ebefd114284f44d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/metal_06 using Guid(e2e53e015698e6d4ebefd114284f44d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7e884cda0a1315ba1889b3fe85d6b7') in 0.006249 seconds
+  Import took 0.011775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000874 seconds.
+  path: Assets/metal_06
+  artifactKey: Guid(e2e53e015698e6d4ebefd114284f44d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/metal_06 using Guid(e2e53e015698e6d4ebefd114284f44d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7e884cda0a1315ba1889b3fe85d6b7') in 0.002781 seconds
+  Import took 0.007860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043426 seconds.
+  path: Assets/metal_06/metal_06.mat
+  artifactKey: Guid(10f41c01e21319844b0efb702a56313d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/metal_06/metal_06.mat using Guid(10f41c01e21319844b0efb702a56313d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427f9856f9414e575921a9a9b2f9b3ec') in 0.037080 seconds
+  Import took 0.042990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/metal_06/metal_plates_06_nm.tga
+  artifactKey: Guid(b38047799de9b094da63cff9e14d7764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/metal_06/metal_plates_06_nm.tga using Guid(b38047799de9b094da63cff9e14d7764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d2c6bf3ad3eac68e583666051b82e1') in 0.016081 seconds
+  Import took 0.032763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/metal_06/metal_plates_06_ao.tga
+  artifactKey: Guid(e469cb854a6be3d429e624669546d75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/metal_06/metal_plates_06_ao.tga using Guid(e469cb854a6be3d429e624669546d75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4558681143662d80e7b517aaed3db4e1') in 0.010028 seconds
+  Import took 0.014413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/metal_06/metal_plates_06_spec.tga
+  artifactKey: Guid(5b9f9c0db400cab4a981fa677d9e921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/metal_06/metal_plates_06_spec.tga using Guid(5b9f9c0db400cab4a981fa677d9e921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1eede6f96626e78cdf8c60cdb54e720') in 0.011005 seconds
+  Import took 0.015776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/metal_06/metal_plates_06_ao.tga
+  artifactKey: Guid(e469cb854a6be3d429e624669546d75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/metal_06/metal_plates_06_ao.tga using Guid(e469cb854a6be3d429e624669546d75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4558681143662d80e7b517aaed3db4e1') in 0.010176 seconds
+  Import took 0.014575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/metal_06/metal_plates_06_dif.tga
+  artifactKey: Guid(b323c36b223f77745af6a28547aa7d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/metal_06/metal_plates_06_dif.tga using Guid(b323c36b223f77745af6a28547aa7d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a51476c13f17aa17e1dde0d4cb8122') in 0.010410 seconds
+  Import took 0.018971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 200.354473 seconds.
+  path: Assets/Concrete textures pack
+  artifactKey: Guid(befcb4669645e0440b55829e980594a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack using Guid(befcb4669645e0440b55829e980594a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b314386da2caac65a526557fb970d92') in 0.007253 seconds
+  Import took 0.013865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.806502 seconds.
+  path: Assets/Concrete textures pack/pattern 01
+  artifactKey: Guid(35d4f368e65435a4c80e8cbac08a0d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 01 using Guid(35d4f368e65435a4c80e8cbac08a0d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5577e4dd7dd5b6eecdaa30a1dcf390') in 0.006764 seconds
+  Import took 0.011768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042250 seconds.
+  path: Assets/Concrete textures pack/pattern 01/Concrete pattern 01.mat
+  artifactKey: Guid(9447935ca27fed54c9c28112b77d5908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 01/Concrete pattern 01.mat using Guid(9447935ca27fed54c9c28112b77d5908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b878bc3827135368ee96426cdefb2a') in 0.039984 seconds
+  Import took 0.045750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Concrete textures pack/pattern 01/diffuse.tga
+  artifactKey: Guid(52fb9790650d0324c8b24cae56159844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 01/diffuse.tga using Guid(52fb9790650d0324c8b24cae56159844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96255c79f0e8bcdf25c15aab03313fee') in 0.009713 seconds
+  Import took 0.014425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Concrete textures pack/pattern 01/preview.jpg
+  artifactKey: Guid(b66c0912b671be645bfcf63a83e63369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 01/preview.jpg using Guid(b66c0912b671be645bfcf63a83e63369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1798e4c18bdc711e3180d26bec7e6b') in 0.012249 seconds
+  Import took 0.033900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Concrete textures pack/pattern 01/normal.tga
+  artifactKey: Guid(4c89e0f06b2b0c34ebb9b930314cf921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 01/normal.tga using Guid(4c89e0f06b2b0c34ebb9b930314cf921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1ed8e88b238ba3eaaa85aae85ca1bf') in 0.009052 seconds
+  Import took 0.013275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.112548 seconds.
+  path: Assets/Concrete textures pack/pattern 02
+  artifactKey: Guid(e6122a63a50f369449a13e9afdb79f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 02 using Guid(e6122a63a50f369449a13e9afdb79f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997db34e0c8c81d1a44d58375f70a235') in 0.006421 seconds
+  Import took 0.012398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031180 seconds.
+  path: Assets/Concrete textures pack/pattern 02/Concrete pattern 02.mat
+  artifactKey: Guid(74c690b29deaf184eb0f56c386f5ef8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 02/Concrete pattern 02.mat using Guid(74c690b29deaf184eb0f56c386f5ef8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c229f5079d57fea4e7f41b27ae498613') in 0.011721 seconds
+  Import took 0.017017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Concrete textures pack/pattern 02/diffuse.tga
+  artifactKey: Guid(ac337a3170ca1644fbe573e8389e6224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 02/diffuse.tga using Guid(ac337a3170ca1644fbe573e8389e6224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc090e5375cb518f465841bdbf6ee3c') in 0.008645 seconds
+  Import took 0.095494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Concrete textures pack/pattern 02/preview.jpg
+  artifactKey: Guid(07a98f2a2d328484eb1ec0d5dfe110f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 02/preview.jpg using Guid(07a98f2a2d328484eb1ec0d5dfe110f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce10b1f7ac81251d0566fd81e102c89') in 0.007546 seconds
+  Import took 0.072857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Concrete textures pack/pattern 02/normal.tga
+  artifactKey: Guid(36c90be17cf50af41a9f4c35a0abc566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 02/normal.tga using Guid(36c90be17cf50af41a9f4c35a0abc566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07aa9c9908ea449cc116259a5144352d') in 0.008465 seconds
+  Import took 0.013717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.487386 seconds.
+  path: Assets/Concrete textures pack/pattern 03
+  artifactKey: Guid(c499eb1696e5a834c87d269dba34d05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 03 using Guid(c499eb1696e5a834c87d269dba34d05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcb730f68489d48ffaf14a0434620d6') in 0.008556 seconds
+  Import took 0.025502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044719 seconds.
+  path: Assets/Concrete textures pack/pattern 03/Concrete pattern 03.mat
+  artifactKey: Guid(52c9083b299dfa3479caa56bb9f0a98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 03/Concrete pattern 03.mat using Guid(52c9083b299dfa3479caa56bb9f0a98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49eb4d07d04373e2bf199b523474b6f4') in 0.011607 seconds
+  Import took 0.016814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Concrete textures pack/pattern 03/preview.jpg
+  artifactKey: Guid(f4ecf1c1e4543d14ea7d040b6ad512de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 03/preview.jpg using Guid(f4ecf1c1e4543d14ea7d040b6ad512de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27f12a05504ebcbb8372845608002ff') in 0.007984 seconds
+  Import took 0.027134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Concrete textures pack/pattern 03/normal.tga
+  artifactKey: Guid(a4b3c4b19bb248240b69534d0d290fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 03/normal.tga using Guid(a4b3c4b19bb248240b69534d0d290fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cb63bae38de36b82d29bab7968d5a7') in 0.009752 seconds
+  Import took 0.023760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Concrete textures pack/pattern 03/diffuse.tga
+  artifactKey: Guid(a0abf4a2000b8db4b839f1a048fafbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 03/diffuse.tga using Guid(a0abf4a2000b8db4b839f1a048fafbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ab6882d27fd29713d00393ed129285') in 0.011160 seconds
+  Import took 0.016130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.286152 seconds.
+  path: Assets/Concrete textures pack/pattern 04
+  artifactKey: Guid(df3e73c831aee3747a32e2b94a3c94bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 04 using Guid(df3e73c831aee3747a32e2b94a3c94bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e4746e37ad69efcecf358ffc610bf7') in 0.007138 seconds
+  Import took 0.962561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Concrete textures pack/pattern 04/Concrete pattern 04.mat
+  artifactKey: Guid(46be5f15e363aac4381cc9eb6efc673f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 04/Concrete pattern 04.mat using Guid(46be5f15e363aac4381cc9eb6efc673f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920681ffb4d2b04ac456eaeef03709ec') in 0.014312 seconds
+  Import took 0.019124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Concrete textures pack/pattern 04/preview.jpg
+  artifactKey: Guid(ea6fbebb7b7c6204d9a867e55c8bbc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 04/preview.jpg using Guid(ea6fbebb7b7c6204d9a867e55c8bbc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6ae89be124012e8fba71f7c4bf8a8a') in 0.010717 seconds
+  Import took 0.016358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Concrete textures pack/pattern 04/diffuse.tga
+  artifactKey: Guid(f177303393a7c84488d40d0843aab036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 04/diffuse.tga using Guid(f177303393a7c84488d40d0843aab036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16024e81304b4755e027f649fc5566c4') in 0.011013 seconds
+  Import took 0.017290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Concrete textures pack/pattern 04/normal.tga
+  artifactKey: Guid(10aaffe9500c81040b80c85d480a877e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 04/normal.tga using Guid(10aaffe9500c81040b80c85d480a877e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd81be73e7fcbe0a0f2387d92694e9f6') in 0.011422 seconds
+  Import took 0.016880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.542131 seconds.
+  path: Assets/Challenges
+  artifactKey: Guid(b42c81c04683f6b43ad0246f78a29254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges using Guid(b42c81c04683f6b43ad0246f78a29254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052df0a62290c1e3e8c20588dd8c9529') in 0.007111 seconds
+  Import took 0.012964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.444411 seconds.
+  path: Assets/Concrete textures pack/pattern 05
+  artifactKey: Guid(661a650dcd6bdf34bb124118169daa50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 05 using Guid(661a650dcd6bdf34bb124118169daa50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2785f8d65b15903c2bb3b7e8f1022ce0') in 0.008148 seconds
+  Import took 0.012917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032084 seconds.
+  path: Assets/Concrete textures pack/pattern 05/Concrete pattern 05.mat
+  artifactKey: Guid(04652004be933ba41b4ac32ddd7f5eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 05/Concrete pattern 05.mat using Guid(04652004be933ba41b4ac32ddd7f5eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca04765ddf4ad3f5e6b8f5c1a5c5ef7') in 0.012985 seconds
+  Import took 0.018587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Concrete textures pack/pattern 05/preview.jpg
+  artifactKey: Guid(70f4b090dd9924e4d96be2d653c9f7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 05/preview.jpg using Guid(70f4b090dd9924e4d96be2d653c9f7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf62279df3ba478030d9a8dec89f1d7') in 0.009602 seconds
+  Import took 0.013758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Concrete textures pack/pattern 05/diffuse.tga
+  artifactKey: Guid(f3c3b5b741e8fda40b5541562f461415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 05/diffuse.tga using Guid(f3c3b5b741e8fda40b5541562f461415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953cac08535afb6c08c599b9772f99b3') in 0.010321 seconds
+  Import took 0.030001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Concrete textures pack/pattern 05/normal.tga
+  artifactKey: Guid(2fee60a97b8865c4ca9b84b80f6b12d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 05/normal.tga using Guid(2fee60a97b8865c4ca9b84b80f6b12d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6e6f378b9d2fedd1329caa117c3943') in 0.009167 seconds
+  Import took 0.019690 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005383 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.041 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2970 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.9 MB.
+System memory in use after: 140.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3696.
+Total: 2.527800 ms (FindLiveObjects: 0.307600 ms CreateObjectMapping: 0.149000 ms MarkObjects: 2.046800 ms  DeleteObjects: 0.023500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005193 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.067 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2970 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.9 MB.
+System memory in use after: 140.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3700.
+Total: 2.917300 ms (FindLiveObjects: 0.323500 ms CreateObjectMapping: 0.148600 ms MarkObjects: 2.421500 ms  DeleteObjects: 0.022700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004897 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.013 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2970 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.9 MB.
+System memory in use after: 140.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3704.
+Total: 2.649600 ms (FindLiveObjects: 0.399300 ms CreateObjectMapping: 0.123000 ms MarkObjects: 2.107500 ms  DeleteObjects: 0.018500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005186 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.983 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2970 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.9 MB.
+System memory in use after: 140.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3708.
+Total: 2.686100 ms (FindLiveObjects: 0.350600 ms CreateObjectMapping: 0.177300 ms MarkObjects: 2.136800 ms  DeleteObjects: 0.019200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004735 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.022 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2970 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.9 MB.
+System memory in use after: 140.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3712.
+Total: 2.661700 ms (FindLiveObjects: 0.415100 ms CreateObjectMapping: 0.151900 ms MarkObjects: 2.074800 ms  DeleteObjects: 0.019100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004795 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.943 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2970 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.9 MB.
+System memory in use after: 140.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3716.
+Total: 2.910100 ms (FindLiveObjects: 0.347000 ms CreateObjectMapping: 0.226800 ms MarkObjects: 2.309500 ms  DeleteObjects: 0.025000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1209.974052 seconds.
+  path: Assets/Concrete textures pack/pattern 05/Concrete pattern 05.mat
+  artifactKey: Guid(04652004be933ba41b4ac32ddd7f5eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 05/Concrete pattern 05.mat using Guid(04652004be933ba41b4ac32ddd7f5eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3016761c3f301c0b9d9a31f32e6728') in 0.190754 seconds
+  Import took 0.196098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.079981 seconds.
+  path: Assets/Scripts/SceneLoad.cs
+  artifactKey: Guid(86b35b8f649405144949d6ec91334c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneLoad.cs using Guid(86b35b8f649405144949d6ec91334c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7917db80ddf828e2d58c455692c82c') in 0.015171 seconds
+  Import took 0.019735 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005600 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.026 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2971 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.1 MB.
+System memory in use after: 140.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3757.
+Total: 2.876200 ms (FindLiveObjects: 0.459600 ms CreateObjectMapping: 0.236600 ms MarkObjects: 2.159100 ms  DeleteObjects: 0.019800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005034 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2971 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.1 MB.
+System memory in use after: 140.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3761.
+Total: 3.180200 ms (FindLiveObjects: 0.413600 ms CreateObjectMapping: 0.230600 ms MarkObjects: 2.514500 ms  DeleteObjects: 0.020000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 226.478850 seconds.
+  path: Assets/Scripts/SceneLoad.cs
+  artifactKey: Guid(86b35b8f649405144949d6ec91334c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneLoad.cs using Guid(86b35b8f649405144949d6ec91334c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ef84ffa52a8e506a36ab68aa16140e') in 0.008961 seconds
+  Import took 0.015893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001141 seconds.
+  path: Assets/Scripts/SceneLoad.cs
+  artifactKey: Guid(86b35b8f649405144949d6ec91334c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneLoad.cs using Guid(86b35b8f649405144949d6ec91334c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ef84ffa52a8e506a36ab68aa16140e') in 0.001860 seconds
+  Import took 0.007077 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004495 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.003 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2971 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.1 MB.
+System memory in use after: 140.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3765.
+Total: 3.051600 ms (FindLiveObjects: 0.360400 ms CreateObjectMapping: 0.247600 ms MarkObjects: 2.417700 ms  DeleteObjects: 0.024700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.842374 seconds.
+  path: Assets/Scripts/SceneLoad.cs
+  artifactKey: Guid(86b35b8f649405144949d6ec91334c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneLoad.cs using Guid(86b35b8f649405144949d6ec91334c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf9adc316a84d5b4c5661903bec3fa2') in 0.004950 seconds
+  Import took 0.009391 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004908 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.050 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2971 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.1 MB.
+System memory in use after: 140.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3769.
+Total: 3.040200 ms (FindLiveObjects: 0.436400 ms CreateObjectMapping: 0.181300 ms MarkObjects: 2.401300 ms  DeleteObjects: 0.020200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004701 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.989 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2971 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.1 MB.
+System memory in use after: 140.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3773.
+Total: 2.672700 ms (FindLiveObjects: 0.311000 ms CreateObjectMapping: 0.161800 ms MarkObjects: 2.177800 ms  DeleteObjects: 0.021300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.048680 seconds.
+  path: Assets/Scripts/SceneLoad.cs
+  artifactKey: Guid(86b35b8f649405144949d6ec91334c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneLoad.cs using Guid(86b35b8f649405144949d6ec91334c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b3f2be7819f6e8220452f19ea78e6f') in 0.005579 seconds
+  Import took 0.010242 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004626 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.040 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2971 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.1 MB.
+System memory in use after: 140.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3777.
+Total: 2.975700 ms (FindLiveObjects: 0.365200 ms CreateObjectMapping: 0.166800 ms MarkObjects: 2.417700 ms  DeleteObjects: 0.024500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005161 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.025 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2971 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.1 MB.
+System memory in use after: 140.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3781.
+Total: 2.869900 ms (FindLiveObjects: 0.406500 ms CreateObjectMapping: 0.152400 ms MarkObjects: 2.291200 ms  DeleteObjects: 0.019000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.839469 seconds.
+  path: Assets/Scripts/SceneLoad.cs
+  artifactKey: Guid(86b35b8f649405144949d6ec91334c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneLoad.cs using Guid(86b35b8f649405144949d6ec91334c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c96e34bac665e4cf714c1b5fe2099f5') in 0.005334 seconds
+  Import took 0.010863 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004718 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.012 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2971 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.2 MB.
+System memory in use after: 140.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3785.
+Total: 3.073900 ms (FindLiveObjects: 0.497300 ms CreateObjectMapping: 0.288300 ms MarkObjects: 2.263800 ms  DeleteObjects: 0.022800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.003763 seconds.
+  path: Assets/Scripts/SceneLoad.cs
+  artifactKey: Guid(86b35b8f649405144949d6ec91334c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SceneLoad.cs using Guid(86b35b8f649405144949d6ec91334c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19eed7c4d867e348e16ef7edf7516753') in 0.007779 seconds
+  Import took 0.014572 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004970 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.040 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2971 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.2 MB.
+System memory in use after: 140.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3789.
+Total: 3.783600 ms (FindLiveObjects: 0.579000 ms CreateObjectMapping: 0.212300 ms MarkObjects: 2.962200 ms  DeleteObjects: 0.028700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004809 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.046 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2971 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.2 MB.
+System memory in use after: 140.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3793.
+Total: 3.471300 ms (FindLiveObjects: 0.490900 ms CreateObjectMapping: 0.196900 ms MarkObjects: 2.754100 ms  DeleteObjects: 0.028400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 387.233191 seconds.
+  path: Assets/Materials/Metal_Steel_Textured_White 1.mat
+  artifactKey: Guid(3954a6db86bb3154dbb523cd77b2f5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Metal_Steel_Textured_White 1.mat using Guid(3954a6db86bb3154dbb523cd77b2f5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61575f2ec47a7215f2cf71c4b6752a05') in 0.160299 seconds
+  Import took 0.165975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002161 seconds.
+  path: Assets/Materials/Metal_Steel_Textured_White 1.mat
+  artifactKey: Guid(3954a6db86bb3154dbb523cd77b2f5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Metal_Steel_Textured_White 1.mat using Guid(3954a6db86bb3154dbb523cd77b2f5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61575f2ec47a7215f2cf71c4b6752a05') in 0.007229 seconds
+  Import took 0.012370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.439718 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1
+  artifactKey: Guid(384ed8e95901faa41a6e1aeb2d7243b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1 using Guid(384ed8e95901faa41a6e1aeb2d7243b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8330c5009b7c6be218af011bc67bf8') in 0.006196 seconds
+  Import took 0.011437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035078 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Interior_Wood_1_basecolor_MaxColorIntensity_MaxLightness.png
+  artifactKey: Guid(72e8100dcafcf0147a0a90c42e36fdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Interior_Wood_1_basecolor_MaxColorIntensity_MaxLightness.png using Guid(72e8100dcafcf0147a0a90c42e36fdaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a9b10f73725b979f6586141946893e') in 0.021206 seconds
+  Import took 0.034924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Interior_Wood_1_basecolor_MinColorIntensity_MedLightness.png
+  artifactKey: Guid(680f8fec125a50f499c4e07910a8895a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Interior_Wood_1_basecolor_MinColorIntensity_MedLightness.png using Guid(680f8fec125a50f499c4e07910a8895a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c9532a094f4355ba1d0dc8885785a5') in 0.012936 seconds
+  Import took 0.053845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Interior_Wood_1_basecolor_MaxColorIntensity_MedLightness.png
+  artifactKey: Guid(9df42848536c0a74ba7c0b62736b375d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Interior_Wood_1_basecolor_MaxColorIntensity_MedLightness.png using Guid(9df42848536c0a74ba7c0b62736b375d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad6c559adca890dfc881da953a9aced') in 0.011539 seconds
+  Import took 0.038667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Interior_Wood_1_basecolor_MedColorIntensity_MinLightness.png
+  artifactKey: Guid(5dd5e2ca37821dd4db78acf0751929df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Interior_Wood_1_basecolor_MedColorIntensity_MinLightness.png using Guid(5dd5e2ca37821dd4db78acf0751929df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965cbb3199dcea123fa14dd884740f5d') in 0.013097 seconds
+  Import took 0.017586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Interior_Wood_1_basecolor_MedColorIntensity_MedLightness.png
+  artifactKey: Guid(faf4661d4fce22143a4d334e6fb7adfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Interior_Wood_1_basecolor_MedColorIntensity_MedLightness.png using Guid(faf4661d4fce22143a4d334e6fb7adfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd446dc5815dd38639d8c277df774877') in 0.011320 seconds
+  Import took 0.015935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Interior_Wood_1_basecolor_MaxColorIntensity_MinLightness.png
+  artifactKey: Guid(dcf9efcdd8732794199b2b79657f5673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Interior_Wood_1_basecolor_MaxColorIntensity_MinLightness.png using Guid(dcf9efcdd8732794199b2b79657f5673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2eb89f7f3e6e789c5abc55ac4d6f15d') in 0.012367 seconds
+  Import took 0.082402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Interior_Wood_1_basecolor_MinColorIntensity_MinLightness.png
+  artifactKey: Guid(118f31672cd9fb345b013d130a937754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Interior_Wood_1_basecolor_MinColorIntensity_MinLightness.png using Guid(118f31672cd9fb345b013d130a937754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03a776e6e7eadfeb16643c6d1298763') in 0.011548 seconds
+  Import took 0.017034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Interior_Wood_1_basecolor_MedColorIntensity_MaxLightness.png
+  artifactKey: Guid(bbd50427f09673941a854c4224fcf028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Interior_Wood_1_basecolor_MedColorIntensity_MaxLightness.png using Guid(bbd50427f09673941a854c4224fcf028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd383224e0fa1d8828a002f24f00673') in 0.012125 seconds
+  Import took 0.017727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Interior_Wood_1_basecolor_MinColorIntensity_MaxLightness.png
+  artifactKey: Guid(cc1f17265676d1d4d9770f7e3ef83a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Interior_Wood_1_basecolor_MinColorIntensity_MaxLightness.png using Guid(cc1f17265676d1d4d9770f7e3ef83a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5428f5dc7a60fc81ec1a80898871ad2f') in 0.011127 seconds
+  Import took 0.017346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.840202 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials
+  artifactKey: Guid(ba1bcd799e3a51f4d8997c2a10647f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials using Guid(ba1bcd799e3a51f4d8997c2a10647f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663fe2f960e573c934c0ebb049e6fb43') in 0.003045 seconds
+  Import took 0.008590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038637 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MaxColorIntensity_MaxLightness.mat
+  artifactKey: Guid(b87dc3dede67df143a45b6bc35d1979a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MaxColorIntensity_MaxLightness.mat using Guid(b87dc3dede67df143a45b6bc35d1979a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd732db43a5d3ba2033498f5309f67ad2') in 0.009084 seconds
+  Import took 0.075342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MedColorIntensity_MaxLightness.mat
+  artifactKey: Guid(33e524b2c7c45cb4598e3eb143efc76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MedColorIntensity_MaxLightness.mat using Guid(33e524b2c7c45cb4598e3eb143efc76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e33d61981286332e4c899ff963e5d63') in 0.009976 seconds
+  Import took 0.258051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MaxColorIntensity_MedLightness.mat
+  artifactKey: Guid(e7eaac3929b974541b3ecb4c9852e905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MaxColorIntensity_MedLightness.mat using Guid(e7eaac3929b974541b3ecb4c9852e905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8021855a414a3314eaa61b686c2468') in 0.009902 seconds
+  Import took 0.014280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MedColorIntensity_MedLightness.mat
+  artifactKey: Guid(261fc6ba388fdea42b200193b2187175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MedColorIntensity_MedLightness.mat using Guid(261fc6ba388fdea42b200193b2187175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c0be7e81f524e88ad3a8d529378b96') in 0.009909 seconds
+  Import took 0.014895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MaxColorIntensity_MinLightness.mat
+  artifactKey: Guid(095381322c7ac724b8b6ff356f04929a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MaxColorIntensity_MinLightness.mat using Guid(095381322c7ac724b8b6ff356f04929a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306b8c0d31d4845e282cd2d4acfc8e7e') in 0.010292 seconds
+  Import took 0.199386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MinColorIntensity_MaxLightness.mat
+  artifactKey: Guid(84f36545290558b4999deaf40861d198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MinColorIntensity_MaxLightness.mat using Guid(84f36545290558b4999deaf40861d198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce65c7557bbc8b479bbe7b9fcca2b5fa') in 0.009705 seconds
+  Import took 0.015204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MinColorIntensity_MinLightness.mat
+  artifactKey: Guid(7c471337ec1659946ab9cc546d0dfb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MinColorIntensity_MinLightness.mat using Guid(7c471337ec1659946ab9cc546d0dfb3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc872afbf4b1371642bf4439aff36fee') in 0.009149 seconds
+  Import took 0.014092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MedColorIntensity_MinLightness.mat
+  artifactKey: Guid(f4caa11616ecb9041b459a020c575a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MedColorIntensity_MinLightness.mat using Guid(f4caa11616ecb9041b459a020c575a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0492097dbc4c6a2b5b02b47d0e759c76') in 0.010350 seconds
+  Import took 0.015281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MinColorIntensity_MedLightness.mat
+  artifactKey: Guid(ebce2ab4039f332449bc802002d88e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MinColorIntensity_MedLightness.mat using Guid(ebce2ab4039f332449bc802002d88e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9043c78f8cf41a93929103356edb9c55') in 0.009775 seconds
+  Import took 0.014984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.508399 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_1_Documentation
+  artifactKey: Guid(b763f57ab5f015d4e920c4b02ea5bea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_1_Documentation using Guid(b763f57ab5f015d4e920c4b02ea5bea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed979db1cccb4e63e8a485af05911d45') in 0.006114 seconds
+  Import took 0.011504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.253442 seconds.
+  path: Assets/Materials/Drill_MainColor.mat
+  artifactKey: Guid(fcebcda7a084ed048af2d0555bdaf7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Drill_MainColor.mat using Guid(fcebcda7a084ed048af2d0555bdaf7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce88b0d3a375fd022b071686a3113253') in 0.013909 seconds
+  Import took 0.021607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.740965 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1
+  artifactKey: Guid(56f2320d11efbfc4e8e09933fd651f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1 using Guid(56f2320d11efbfc4e8e09933fd651f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f5d25d1a5bb44150d77d7866e18e28') in 0.007180 seconds
+  Import took 0.012750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000574 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1
+  artifactKey: Guid(56f2320d11efbfc4e8e09933fd651f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1 using Guid(56f2320d11efbfc4e8e09933fd651f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f5d25d1a5bb44150d77d7866e18e28') in 0.003655 seconds
+  Import took 0.008592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047026 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Exterior_Flooring_Wood_1_basecolor_MaxColorIntensity_MaxLightness.png
+  artifactKey: Guid(9bc26562f3a01514b9db39204888df98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Exterior_Flooring_Wood_1_basecolor_MaxColorIntensity_MaxLightness.png using Guid(9bc26562f3a01514b9db39204888df98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17fed08e7ca20c978987c82e96df5d66') in 0.012083 seconds
+  Import took 0.017165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Exterior_Flooring_Wood_1_basecolor_MinColorIntensity_MinLightness.png
+  artifactKey: Guid(7f63628d0a5740f4d96de1f461bd3a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Exterior_Flooring_Wood_1_basecolor_MinColorIntensity_MinLightness.png using Guid(7f63628d0a5740f4d96de1f461bd3a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f40a443b4d48177d76466b798aeb181') in 0.010600 seconds
+  Import took 0.015596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Exterior_Flooring_Wood_1_basecolor_MedColorIntensity_MaxLightness.png
+  artifactKey: Guid(3382de563ce9f804391ec8f4987eed1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Exterior_Flooring_Wood_1_basecolor_MedColorIntensity_MaxLightness.png using Guid(3382de563ce9f804391ec8f4987eed1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaff4d546ba6a90c55bc921767670d85') in 0.012027 seconds
+  Import took 0.034394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Exterior_Flooring_Wood_1_basecolor_MinColorIntensity_MaxLightness.png
+  artifactKey: Guid(9f3d30c9b732c754f92132642290e191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Exterior_Flooring_Wood_1_basecolor_MinColorIntensity_MaxLightness.png using Guid(9f3d30c9b732c754f92132642290e191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4671b7ed97e60ceb95bff89b9b2a71f2') in 0.011615 seconds
+  Import took 0.016171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Exterior_Flooring_Wood_1_basecolor_MedColorIntensity_MedLightness.png
+  artifactKey: Guid(d4b8bf084423e814b9c997694c126669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Exterior_Flooring_Wood_1_basecolor_MedColorIntensity_MedLightness.png using Guid(d4b8bf084423e814b9c997694c126669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea46dd929abf4fc5305a5b51e38e374') in 0.010690 seconds
+  Import took 0.015980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Exterior_Flooring_Wood_1_basecolor_MaxColorIntensity_MedLightness.png
+  artifactKey: Guid(88d407b968ef1694d98f0035ced7a72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Exterior_Flooring_Wood_1_basecolor_MaxColorIntensity_MedLightness.png using Guid(88d407b968ef1694d98f0035ced7a72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db03b56bd3e7bb493985b0cadf08d318') in 0.014799 seconds
+  Import took 0.026140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Exterior_Flooring_Wood_1_basecolor_MaxColorIntensity_MinLightness.png
+  artifactKey: Guid(9ac14c2ec47ea4a479b25b261d7014e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Exterior_Flooring_Wood_1_basecolor_MaxColorIntensity_MinLightness.png using Guid(9ac14c2ec47ea4a479b25b261d7014e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38bbd87940e3463beef99ae6c284176') in 0.011986 seconds
+  Import took 0.016833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Exterior_Flooring_Wood_1_basecolor_MinColorIntensity_MedLightness.png
+  artifactKey: Guid(48b37cd02af83ba4f972a7b07cd7cfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Exterior_Flooring_Wood_1_basecolor_MinColorIntensity_MedLightness.png using Guid(48b37cd02af83ba4f972a7b07cd7cfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657e4d6cdc98e7cb8f43d295ec2daec4') in 0.012077 seconds
+  Import took 0.016511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Exterior_Flooring_Wood_1_basecolor_MedColorIntensity_MinLightness.png
+  artifactKey: Guid(d8ea263808e883145b880f4e3e82712b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Exterior_Flooring_Wood_1_basecolor_MedColorIntensity_MinLightness.png using Guid(d8ea263808e883145b880f4e3e82712b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f5df4149c75e7b8a71618afb14974d') in 0.011316 seconds
+  Import took 0.015777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.161447 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials
+  artifactKey: Guid(3e80c76561a692446b9d985fd06c92d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials using Guid(3e80c76561a692446b9d985fd06c92d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96443b18618b9902fffc929a4655719') in 0.002390 seconds
+  Import took 0.007580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041364 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MaxColorIntensity_MaxLightness.mat
+  artifactKey: Guid(f088e83810086dd47ab9a9718144ed37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MaxColorIntensity_MaxLightness.mat using Guid(f088e83810086dd47ab9a9718144ed37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b36e761fe79c556d2d7638aaf22bff') in 0.009418 seconds
+  Import took 0.014704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MedColorIntensity_MinLightness.mat
+  artifactKey: Guid(5cd89167416b68048802338ad9219ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MedColorIntensity_MinLightness.mat using Guid(5cd89167416b68048802338ad9219ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63edbfbc22db111c4c54a9d2b6cca59e') in 0.008713 seconds
+  Import took 0.012949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MinColorIntensity_MedLightness.mat
+  artifactKey: Guid(db9e9e97d836e4c4ba6e23a8bb59df7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MinColorIntensity_MedLightness.mat using Guid(db9e9e97d836e4c4ba6e23a8bb59df7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c35475affd720b7c16d96b9a30c4765') in 0.009080 seconds
+  Import took 0.014520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MinColorIntensity_MaxLightness.mat
+  artifactKey: Guid(0f3f7bfbfc24fd245971f1b42199cff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MinColorIntensity_MaxLightness.mat using Guid(0f3f7bfbfc24fd245971f1b42199cff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335b47ce5005f3bb6364c5e14c7210e9') in 0.008493 seconds
+  Import took 0.013929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MaxColorIntensity_MedLightness.mat
+  artifactKey: Guid(ca6a2771d00019e4eba3d3b1386215a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MaxColorIntensity_MedLightness.mat using Guid(ca6a2771d00019e4eba3d3b1386215a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d35bfc0327d6f2db17b6f201c261cf') in 0.009466 seconds
+  Import took 0.016184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MaxColorIntensity_MinLightness.mat
+  artifactKey: Guid(f9ab68b7517ed34488cdbbbf976b7ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MaxColorIntensity_MinLightness.mat using Guid(f9ab68b7517ed34488cdbbbf976b7ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c746744f6bb5579b5a70c0ed0f12d9bc') in 0.008908 seconds
+  Import took 0.014816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MedColorIntensity_MedLightness.mat
+  artifactKey: Guid(ca309c5926d65b34ab5267404b8debd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MedColorIntensity_MedLightness.mat using Guid(ca309c5926d65b34ab5267404b8debd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d020ce30bb7691d5bc6c10cb4ee876e') in 0.007632 seconds
+  Import took 0.012652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MedColorIntensity_MaxLightness.mat
+  artifactKey: Guid(1705db4e7c5e95047b66293086e5a7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MedColorIntensity_MaxLightness.mat using Guid(1705db4e7c5e95047b66293086e5a7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7b221190fc9f7af139ebc83626f590') in 0.008955 seconds
+  Import took 0.013922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MaxColorIntensity_MinLightness.mat
+  artifactKey: Guid(f9ab68b7517ed34488cdbbbf976b7ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MaxColorIntensity_MinLightness.mat using Guid(f9ab68b7517ed34488cdbbbf976b7ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c746744f6bb5579b5a70c0ed0f12d9bc') in 0.008989 seconds
+  Import took 0.013639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MedColorIntensity_MaxLightness.mat
+  artifactKey: Guid(1705db4e7c5e95047b66293086e5a7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MedColorIntensity_MaxLightness.mat using Guid(1705db4e7c5e95047b66293086e5a7ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7b221190fc9f7af139ebc83626f590') in 0.008637 seconds
+  Import took 0.013622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MinColorIntensity_MinLightness.mat
+  artifactKey: Guid(5d027e838ac6db348980898c93402db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Exterior_Flooring_Wood_1/Materials/Exterior_Flooring_Wood_1_basecolor_MinColorIntensity_MinLightness.mat using Guid(5d027e838ac6db348980898c93402db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2faa8728266073a19f6c02607b9a00c') in 0.008239 seconds
+  Import took 0.308825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.305675 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MaxColorIntensity_MaxLightness.mat
+  artifactKey: Guid(b87dc3dede67df143a45b6bc35d1979a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MaxColorIntensity_MaxLightness.mat using Guid(b87dc3dede67df143a45b6bc35d1979a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8ae9c4c47994552a90b821756be505') in 0.013258 seconds
+  Import took 0.017918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MaxColorIntensity_MedLightness.mat
+  artifactKey: Guid(e7eaac3929b974541b3ecb4c9852e905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Interior_Wood_1/Materials/Interior_Wood_1_basecolor_MaxColorIntensity_MedLightness.mat using Guid(e7eaac3929b974541b3ecb4c9852e905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c2698489fd250360c7ee73456155f1') in 0.007522 seconds
+  Import took 0.011807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.403831 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Old_Painted_Wood_1
+  artifactKey: Guid(eeda6a37de522534e93ec636f5adf50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Old_Painted_Wood_1 using Guid(eeda6a37de522534e93ec636f5adf50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e364571d21addbbed42ce522258dfb2') in 0.006609 seconds
+  Import took 0.043675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.033298 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Old_Painted_Wood_1/Blue
+  artifactKey: Guid(5592b9091525e024fb022202d8bd4b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Old_Painted_Wood_1/Blue using Guid(5592b9091525e024fb022202d8bd4b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefd13a3d43d98159cf4921e72e7e484') in 0.007097 seconds
+  Import took 0.012926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032206 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Old_Painted_Wood_1/Blue/Old_Painted_Wood_basecolor_Max_CoatingAmount_Blue.tga
+  artifactKey: Guid(bf979889d3f38fd44b20d2b93c4ef874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Old_Painted_Wood_1/Blue/Old_Painted_Wood_basecolor_Max_CoatingAmount_Blue.tga using Guid(bf979889d3f38fd44b20d2b93c4ef874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35258954ab5a6c6926662322d72b3e99') in 0.215918 seconds
+  Import took 0.671824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Old_Painted_Wood_1/Blue/Old_Painted_Wood_basecolor_MinCoatingAmount_Blue.tga
+  artifactKey: Guid(ccd79105cb4062246accf17028aa342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Old_Painted_Wood_1/Blue/Old_Painted_Wood_basecolor_MinCoatingAmount_Blue.tga using Guid(ccd79105cb4062246accf17028aa342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2d4b0dc23f8c040e56436a8aa7640f') in 0.313007 seconds
+  Import took 0.317157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Old_Painted_Wood_1/Blue/Old_Painted_Wood_basecolor_Med_CoatingAmount_Blue.tga
+  artifactKey: Guid(ffa6576c1a4e21e48915c1b20846c14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Old_Painted_Wood_1/Blue/Old_Painted_Wood_basecolor_Med_CoatingAmount_Blue.tga using Guid(ffa6576c1a4e21e48915c1b20846c14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cad0e4faca93325373fd3ca880c3c16') in 0.057249 seconds
+  Import took 0.061424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079902 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Old_Painted_Wood_1/Blue/Materials
+  artifactKey: Guid(1badfafcd30401440bb84a3678997f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Old_Painted_Wood_1/Blue/Materials using Guid(1badfafcd30401440bb84a3678997f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20314f4e7155f601453987b20956b5e') in 0.002066 seconds
+  Import took 0.006702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052328 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Old_Painted_Wood_1/Blue/Materials/Old_Painted_Wood_basecolor_Max_CoatingAmount_Blue.mat
+  artifactKey: Guid(6e68f052b7d3c5b418f26a88b5b38de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Old_Painted_Wood_1/Blue/Materials/Old_Painted_Wood_basecolor_Max_CoatingAmount_Blue.mat using Guid(6e68f052b7d3c5b418f26a88b5b38de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ee7830249838b4d468a0a4d5ad6004') in 0.007921 seconds
+  Import took 0.012831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Old_Painted_Wood_1/Blue/Materials/Old_Painted_Wood_basecolor_Med_CoatingAmount_Blue.mat
+  artifactKey: Guid(c29d4d79c18e3284e8d85d2266d72b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Old_Painted_Wood_1/Blue/Materials/Old_Painted_Wood_basecolor_Med_CoatingAmount_Blue.mat using Guid(c29d4d79c18e3284e8d85d2266d72b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac6d76d3abb5e0d38dca53f4ebad1cc') in 0.009370 seconds
+  Import took 0.013753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Old_Painted_Wood_1/Blue/Materials/Old_Painted_Wood_basecolor_MinCoatingAmount_Blue.mat
+  artifactKey: Guid(3f2d233aa8a002c4b82838100e97bc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Old_Painted_Wood_1/Blue/Materials/Old_Painted_Wood_basecolor_MinCoatingAmount_Blue.mat using Guid(3f2d233aa8a002c4b82838100e97bc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a27c775895727395c873422c9cad8f4') in 0.010331 seconds
+  Import took 0.031927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.069836 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Wood_Bark_1/Materials
+  artifactKey: Guid(37a944fdf90a4aa439e58eb85ae520c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Wood_Bark_1/Materials using Guid(37a944fdf90a4aa439e58eb85ae520c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e520c5c41b5e755ad4c5323a9d91f8') in 0.002339 seconds
+  Import took 0.007352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058383 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Wood_Bark_1/Materials/Wood_Bark_1_1_basecolor.mat
+  artifactKey: Guid(2c011bc6a500920428e8b1665bc28253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Wood_Bark_1/Materials/Wood_Bark_1_1_basecolor.mat using Guid(2c011bc6a500920428e8b1665bc28253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6f3c0abc25bd78523b58923854a012') in 0.070743 seconds
+  Import took 0.075581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Wood_Bark_1/Materials/Wood_Bark_1_2_basecolor.mat
+  artifactKey: Guid(9b7535e1ed5c95141ae45579896325ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Wood_Bark_1/Materials/Wood_Bark_1_2_basecolor.mat using Guid(9b7535e1ed5c95141ae45579896325ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5a3e423e27a8797ced3d7a17df90e7') in 0.136022 seconds
+  Import took 0.140216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Wood_Bark_1/Materials/Wood_Bark_1_3_basecolor.mat
+  artifactKey: Guid(5f3f1bb388690874fbed5485250640dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Wood_Bark_1/Materials/Wood_Bark_1_3_basecolor.mat using Guid(5f3f1bb388690874fbed5485250640dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0819c8076ce37386fdd227b2e2cf28c1') in 0.066242 seconds
+  Import took 0.070280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Wood_Bark_1/Materials/Wood_Bark_1_basecolor.mat
+  artifactKey: Guid(0a366e5a36fbbc849ba636dde51beea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Mezanix/RealisticWoodTextures/0_0_Textures/Wood_Bark_1/Materials/Wood_Bark_1_basecolor.mat using Guid(0a366e5a36fbbc849ba636dde51beea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc2334a4438b4cb9047bba0d9fec8e5') in 0.031003 seconds
+  Import took 0.035303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.058556 seconds.
+  path: Assets/Concrete textures pack/pattern 06/diffuse.tga
+  artifactKey: Guid(797b455d235e0f9429d6eedc7e2e6e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 06/diffuse.tga using Guid(797b455d235e0f9429d6eedc7e2e6e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034712ad36f7ccb2ad86ae0e1dc23848') in 0.010587 seconds
+  Import took 0.015643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Concrete textures pack/pattern 07/diffuse.tga
+  artifactKey: Guid(e312182b2d9d04c47a2ffb6c823b3a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 07/diffuse.tga using Guid(e312182b2d9d04c47a2ffb6c823b3a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7287b8b35f0120879dd64e2fa1f58a0') in 0.009521 seconds
+  Import took 0.255531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Concrete textures pack/pattern 06/diffuse.tga
+  artifactKey: Guid(797b455d235e0f9429d6eedc7e2e6e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 06/diffuse.tga using Guid(797b455d235e0f9429d6eedc7e2e6e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034712ad36f7ccb2ad86ae0e1dc23848') in 0.009730 seconds
+  Import took 0.014617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Concrete textures pack/pattern 07/diffuse.tga
+  artifactKey: Guid(e312182b2d9d04c47a2ffb6c823b3a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 07/diffuse.tga using Guid(e312182b2d9d04c47a2ffb6c823b3a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7287b8b35f0120879dd64e2fa1f58a0') in 0.011347 seconds
+  Import took 0.016137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Concrete textures pack/pattern 08/diffuse.tga
+  artifactKey: Guid(14efa88d20a9c834fa648fbcf82c2f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 08/diffuse.tga using Guid(14efa88d20a9c834fa648fbcf82c2f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e74146de805fd072015f9a88f47bda7') in 0.012243 seconds
+  Import took 0.017231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Concrete textures pack/pattern 10/diffuse.tga
+  artifactKey: Guid(63572e5568cdd1f4382233109e0172f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 10/diffuse.tga using Guid(63572e5568cdd1f4382233109e0172f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33d48b202212d48baec20bc8e61726d') in 0.013672 seconds
+  Import took 0.018570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Concrete textures pack/pattern 09/diffuse.tga
+  artifactKey: Guid(e7e2260ae09042e4f85772607531094f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 09/diffuse.tga using Guid(e7e2260ae09042e4f85772607531094f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59cf97aaf5b82a0fd06361e9be344977') in 0.010600 seconds
+  Import took 0.015138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006085 seconds.
+  path: Assets/Concrete textures pack/pattern 10/diffuse.tga
+  artifactKey: Guid(63572e5568cdd1f4382233109e0172f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 10/diffuse.tga using Guid(63572e5568cdd1f4382233109e0172f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33d48b202212d48baec20bc8e61726d') in 0.010968 seconds
+  Import took 0.016991 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005422 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.348 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 2975 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.8 MB.
+System memory in use after: 138.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3833.
+Total: 3.973200 ms (FindLiveObjects: 0.606200 ms CreateObjectMapping: 0.218800 ms MarkObjects: 3.119000 ms  DeleteObjects: 0.027700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 6.76 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.5 MB.
+System memory in use after: 79.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3833.
+Total: 4.231100 ms (FindLiveObjects: 0.781700 ms CreateObjectMapping: 0.345100 ms MarkObjects: 3.078400 ms  DeleteObjects: 0.024400 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 8.86 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.5 MB.
+System memory in use after: 79.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3833.
+Total: 4.399600 ms (FindLiveObjects: 0.705000 ms CreateObjectMapping: 0.272900 ms MarkObjects: 3.388100 ms  DeleteObjects: 0.032200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1251.616633 seconds.
+  path: Assets/Materials/Rinnegan.jpg
+  artifactKey: Guid(f6daaa7fd2cd3794484c10c96d3931c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Rinnegan.jpg using Guid(f6daaa7fd2cd3794484c10c96d3931c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa431b746da09f2249ea30b9a8aa97b') in 0.964482 seconds
+  Import took 1.239558 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005831 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Projects\VRSimulation1.1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.409 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2971 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.4 MB.
+System memory in use after: 140.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3837.
+Total: 9.255000 ms (FindLiveObjects: 0.636600 ms CreateObjectMapping: 0.303600 ms MarkObjects: 8.250100 ms  DeleteObjects: 0.062500 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 11.05 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.1 MB.
+System memory in use after: 82.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3837.
+Total: 6.709500 ms (FindLiveObjects: 2.315800 ms CreateObjectMapping: 0.572700 ms MarkObjects: 3.793700 ms  DeleteObjects: 0.025200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
