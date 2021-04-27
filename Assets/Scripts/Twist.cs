@@ -26,7 +26,7 @@ public class Twist : MonoBehaviour
     {
         if(collision.gameObject.tag == "Drill")
         {
-            Debug.Log("the drill is touching");
+            //Debug.Log("the drill is touching");
             drill = true;
         }
         if (collision.gameObject.tag == "Board")

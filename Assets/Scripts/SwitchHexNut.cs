@@ -11,12 +11,12 @@ public class SwitchHexNut : XRBaseInteractable
 
     void Awake()
     {
-        XRSocketInteractor socket = gameObject.GetComponent<XRSocketInteractor>();
+       /* XRSocketInteractor socket = gameObject.GetComponent<XRSocketInteractor>();
         //socket.onSelectEntered.AddListener(HatCheck);
 
         nut = GameObject.FindGameObjectWithTag("HexNut");
         nut1 = GameObject.FindGameObjectWithTag("HexNut1");
-        Debug.Log("socket from Awake: " + socket);
+        Debug.Log("socket from Awake: " + socket);*/
     }
 
     public void HexNut(XRBaseInteractable obj)
