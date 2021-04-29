@@ -14,6 +14,6 @@ public class SceneLoad : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("Assembly");
     }
 }
